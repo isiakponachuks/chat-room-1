@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "chat-room:build:production"
+              "buildTarget": "chat-room:build:production"
             },
             "development": {
-              "browserTarget": "chat-room:build:development"
+              "buildTarget": "chat-room:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "chat-room:build"
+            "buildTarget": "chat-room:build"
           }
         },
         "test": {
